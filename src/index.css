@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #eff7ff;
+}
+a {
+  color: unset;
+  text-decoration: none;
+}
+.css-o4b71y-MuiAccordionSummary-content {
+  margin: 0 !important;
+}
+.active {
+  color: #fff;
+}
+button:disabled {
+  opacity: 0.65;
+}
+
+tspan {
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 8px !important;
+  fill: #a2bcdc !important;
+}
+
+.MuiPaper-root {
+  color: ;
+}
+.input-error {
+  color: red !important;
+}
+
+.pending {
+  background-color: #ea2727 !important;
+}
+.activeBill {
+  background-color: #2776ea !important;
+}
+
+.installing {
+  background-color: #eab327 !important;
+}
+
+.pendingText {
+  color: #ea2727 !important;
+}
+.activeText {
+  color: #2776ea !important;
+}
+
+.installingText {
+  color: #eab327 !important;
+}
+
+.pendingBarShadow {
+  background-color: #d46060 !important;
+}
+.activeBarShadow {
+  background-color: #d5e5f6 !important;
+}
+
+.installingBarShadow {
+  background-color: #d1d4d7 !important;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 40px;
+  margin-top: 30px;
+  margin-right: 63px;
+}
+.activeLink {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2776ea;
+  color: #fff !important;
+}
+.page-num {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 143%;
+  text-align: center;
+  letter-spacing: 0.17px;
+  color: rgba(0, 0, 0, 0.87);
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .MuiStepLabel-labelContainer span {
+    font-size: 9px;
+  }
+}
+@media (min-width: 768px) {
+  .MuiStepLabel-labelContainer span {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1200px) {
+  .css-f87grb-MuiContainer-root {
+    max-width: auto !important;
+  }
+}
